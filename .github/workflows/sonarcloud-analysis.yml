@@ -9,7 +9,7 @@ jobs:
   analyze:
     name: Analyze
     if: >
-      github.repository == 'svenzik/wallet' &&
+      github.repository == 'svenzik/bugs-camel-spring-boot-1' &&
       github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
 
